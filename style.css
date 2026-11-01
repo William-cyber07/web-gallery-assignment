@@ -1,0 +1,165 @@
+/* ============================================================
+   Ghana Tourist Sites Web Gallery
+   Task 2 - CSS Enhancement
+   External stylesheet used by all pages of the website
+   ============================================================ */
+
+/* ---------- Base Page Styles ---------- */
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: #f5f5dc;
+  color: #333333;
+  margin: 0;
+  padding: 0;
+}
+
+h1 {
+  color: #006400;
+  text-align: center;
+  font-size: 2.3em;
+}
+
+h2 {
+  color: #003366;
+  border-bottom: 4px solid #ffd700;
+  text-align: center;
+  padding-bottom: 5px;
+}
+
+h3 {
+  color: #003366;
+  text-align: center;
+}
+
+p {
+  line-height: 1.6;
+}
+
+/* ---------- Navigation Menu ---------- */
+nav {
+  background-color: #003366;
+  border-bottom: 4px solid #ffd700;
+  text-align: center;
+}
+
+nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+nav ul li {
+  display: inline-block;
+}
+
+nav ul li a {
+  display: inline-block;
+  color: #ffffff;
+  text-decoration: none;
+  font-weight: bold;
+  padding: 12px 18px;
+}
+
+nav ul li a:hover {
+  background-color: #00509e;
+  color: #ffd700;
+}
+
+/* ---------- Marquee Banners ---------- */
+marquee {
+  line-height: 40px;
+}
+
+/* ---------- Gallery Table ---------- */
+table.gallery-table {
+  border-collapse: collapse;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+table.gallery-table th,
+table.gallery-table td {
+  border: 1px solid #999999;
+  padding: 10px;
+  text-align: center;
+  vertical-align: top;
+}
+
+table.gallery-table th {
+  background-color: #003366;
+  color: #ffffff;
+}
+
+table.gallery-table img {
+  border: 2px solid #006400;
+  width: 250px;
+  height: auto;
+}
+
+/* ---------- Information Tables ---------- */
+table.info-table {
+  border-collapse: collapse;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+table.info-table th,
+table.info-table td {
+  border: 1px solid #999999;
+  padding: 6px;
+  text-align: center;
+}
+
+table.info-table th {
+  background-color: #003366;
+  color: #ffffff;
+}
+
+table.info-table tr {
+  background-color: #f5f5dc;
+}
+
+table.info-table tr:first-child {
+  background-color: #dddddd;
+}
+
+/* ---------- Footer ---------- */
+p.site-footer {
+  text-align: center;
+  margin-top: 20px;
+}
+
+/* ---------- Contact Form ---------- */
+form label {
+  display: block;
+  margin-top: 10px;
+  font-weight: bold;
+}
+
+form input,
+form textarea,
+form submit {
+  display: block;
+  width: 80%;
+  max-width: 500px;
+  margin: 8px auto 0 auto;
+  padding: 8px;
+  border: 1px solid #999999;
+  border-radius: 4px;
+}
+
+form input[type="text"],
+form input[type="email"],
+form textarea {
+  width: 80%;
+  max-width: 500px;
+}
+
+form input[type="submit"] {
+  width: auto;
+  padding: 10px 25px;
+  background-color: #006400;
+  color: #ffffff;
+  border: none;
+  cursor: pointer;
+}

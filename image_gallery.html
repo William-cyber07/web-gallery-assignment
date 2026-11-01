@@ -2,8 +2,19 @@
 <html>
 <head>
   <title>Ghana Tourist Sites Gallery</title>
+  <link rel="stylesheet" href="style.css">
 </head>
 <body bgcolor="#f5f5dc">
+
+  <!-- NAVIGATION MENU -->
+  <nav>
+    <ul>
+      <li><a href="image_gallery.html">Image Gallery</a></li>
+      <li><a href="video_gallery.html">Video Gallery</a></li>
+      <li><a href="about.html">About</a></li>
+      <li><a href="contact.html">Contact</a></li>
+    </ul>
+  </nav>
 
   <!-- MAIN HEADING AREA -->
   <h1 align="center">Ghana Tourist Sites Gallery</h1>
@@ -60,7 +71,7 @@
 
   <!-- IMAGES IN A TABLE (3 columns) -->
   <h2 align="center">The Gallery</h2>
-  <table border="1" cellpadding="8" align="center">
+  <table class="gallery-table" cellpadding="8" align="center">
     <tr>
       <td align="center">
         <img src="Images/cape_coast_castle.jpg" width="250" height="170" border="2" alt="Cape Coast Castle">
@@ -125,7 +136,7 @@
 
   <!-- TABLE OF IMAGE INFORMATION (5+ rows) -->
   <h2>Image Information Table</h2>
-  <table border="1" cellpadding="6" align="center">
+  <table class="info-table" cellpadding="6" align="center">
     <tr bgcolor="lightgrey">
       <th>No.</th><th>Title of Image</th><th>Description</th><th>Region</th><th>Year</th>
     </tr>
@@ -137,7 +148,7 @@
   </table>
 
   <hr>
-  <p align="center">&copy; 2026 Your Name — Web Development Assignment</p>
+  <p class="site-footer" align="center">&copy; 2026 Donkoh William Junior — Web Development Assignment</p>
 
 </body>
 </html>
