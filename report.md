@@ -37,5 +37,3 @@ The navigation menu links to the four pages:
 Through Task 2, I learned how to use an external CSS file, style headings,
 backgrounds, colours, borders, tables, paragraphs and forms, and how to build
 a multi-page website navigation menu using HTML lists and links.
-
-All the best.
